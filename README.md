@@ -1,16 +1,92 @@
-# React + Vite
+# ShadvalPay Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **React + Vite frontend website** built for the ShadvalPay fintech platform.  
+The project includes a responsive UI with animations and a backend API for **form submissions using Node.js and SQL**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🌐 Live Website
+https://react.shadvalpay.co.in/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 🖼️ Project Preview
 
-## Expanding the ESLint configuration
+## Homepage
+![Homepage](./screenshots/home.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Services Section
+![Services](./screenshots/services.png)
+
+## Contact Form
+![Contact](./screenshots/contact.png)
+
+> You can add screenshots inside a **screenshots** folder.
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+- React 19
+- Vite
+- TailwindCSS
+- Radix UI
+- Framer Motion
+- React Router
+- Lucide Icons
+- Lottie Animations
+
+## Backend
+- Node.js
+- Express.js
+- SQL Database
+- Form Submission API
+
+```
+
+# 📂 Folder Structure
+
+SHADVALPAY
+│
+├── client
+│ ├── .vscode
+│ ├── node_modules
+│ ├── public
+│ ├── src
+│ ├── .env
+│ ├── .gitignore
+│ ├── eslint.config.js
+│ ├── index.html
+│ ├── package.json
+│ ├── package-lock.json
+│ └── vite.config.js
+│
+├── server
+│ ├── node_modules
+│ ├── public
+│ ├── .env
+│ ├── package.json
+│ ├── package-lock.json
+│ └── server.js
+│
+└── README.md
+
+```
+
+# ⚙️ Installation
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/Im-Rahul-Panchal/ShadvalPay
+
+# Frontend
+cd shadvalpay
+cd client
+npm install
+
+# Backend
+cd shadvalpay
+cd server
+npm install
