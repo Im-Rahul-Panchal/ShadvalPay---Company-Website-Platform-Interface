@@ -21,8 +21,6 @@ https://react.shadvalpay.co.in/
 ## Contact Form
 ![Contact](./client/public/screenshots/contact.png)
 
-> You can add screenshots inside a **screenshots** folder.
-
 ---
 
 # 🛠 Tech Stack
