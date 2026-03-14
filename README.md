@@ -13,13 +13,13 @@ https://react.shadvalpay.co.in/
 # 🖼️ Project Preview
 
 ## Homepage
-![Homepage](./screenshots/home.png)
+![Homepage](./client/public/screenshots/home.png)
 
 ## Services Section
-![Services](./screenshots/services.png)
+![Services](./client/public/screenshots/services.png)
 
 ## Contact Form
-![Contact](./screenshots/contact.png)
+![Contact](./client/public/screenshots/contact.png)
 
 > You can add screenshots inside a **screenshots** folder.
 
